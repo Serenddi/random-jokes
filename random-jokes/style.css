@@ -1,0 +1,64 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgba(25, 52, 94, 0.904);
+    margin: 0 auto;
+}
+
+.container {
+    height: 800px;
+}
+
+.text {
+    width: 300px;
+    position: absolute;
+    margin-top: -360px;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    color: rgba(16, 35, 65);
+    font-size: 24px;
+}
+
+.book {
+    width: fit-content;
+    margin-left: 460px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.go {
+    height: 50px;
+    width: 300px;
+    margin-left: 520px;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: rgba(16, 35, 65, 0.986);
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+footer {
+    height: 70px;
+    max-width: 1920px;
+    background-color: rgba(16, 35, 65, 0.986);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.RS {
+filter: invert(100%);
+}
+
+.year {
+color: white;
+}
+
+.acc {
+filter: invert(100%);
+}
